@@ -85,7 +85,7 @@ nav li:hover {
   width: 100px;
 }
 
-.kiji {
+.designTab {
   background-color:white;
   width: 20%;
   margin: 5% 0 0 5%;
@@ -93,7 +93,7 @@ nav li:hover {
   float: left;
 }
 
-.kiji * {
+.designTab * {
   padding-top: 5%;
   color: black;
 }
