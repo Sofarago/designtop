@@ -87,15 +87,28 @@ nav li:hover {
 
 .designTab {
   background-color:white;
-  width: 20%;
   margin: 5% 0 0 5%;
-  padding-bottom: 3%;
-  float: left;
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  height: 28%;
 }
 
 .designTab * {
-  padding-top: 5%;
   color: black;
+}
+
+.designTab a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.designTab h2 {
+  padding-top: 15%;
+  margin-top: 0%;
 }
 
 footer {
